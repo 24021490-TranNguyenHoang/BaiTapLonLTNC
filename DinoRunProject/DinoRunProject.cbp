@@ -31,7 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
+			<Add directory="C:/SDL3/SDL3-3.4.10/x86_64-w64-mingw32/include" />
 		</Compiler>
+		<Linker>
+			<Add option="-lSDL3" />
+			<Add directory="C:/SDL3/SDL3-3.4.10/x86_64-w64-mingw32/lib" />
+		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
